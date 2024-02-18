@@ -62,7 +62,3 @@ body div{
 td:hover button{
     background-color:grey;
 }
-
-.twobtn{
-display: flex;
-}
