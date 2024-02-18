@@ -10,49 +10,49 @@
         <div class="divtable">
             <table>
                 <tr>
-                    <td><button class="darkgrey btn">Rad</button></td>
-                    <td><button class="darkgrey btn">Deg</button></td>
-                    <td><button class="darkgrey btn" onclick="fact()">x!</button></td>
+                    <td><button class="darkgrey btn activeBtn" id="rad" >Rad</button></td>
+                    <td><button class="darkgrey btn" id="deg" style="opacity: 0.5;">Deg</button></td>
+                    <td><button class="darkgrey btn">x!</button></td>
                     <td><button class="darkgrey btn">(</button></td>
                     <td><button class="darkgrey btn">)</button></td>
                     <td><button class="darkgrey btn">%</button></td>
                     <td><button class="darkgrey" onclick="ACBtn()">AC</button></td>
                 </tr>
                 <tr>
-                    <td><button class="darkgrey btn">Inv</button></td>
-                    <td><button class="darkgrey btn" onclick="sin()">Sin</button></td>
-                    <td><button class="darkgrey btn">Ln</button></td>
+                    <td><button class="darkgrey" onclick="inverse()">Inv</button></td>
+                    <td><button class="darkgrey btn" id="invsin">sin</button></td>
+                    <td><button class="darkgrey btn" id="invln">ln</button></td>
                     <td><button class="btn">7</button></td>
                     <td><button class="btn">8</button></td>
                     <td><button class="btn">9</button></td>
                     <td><button class="darkgrey btn">÷</button></td>
                 </tr>
                 <tr>
-                    <td><button class="darkgrey btn" onclick="pi()"> π</button></td>
-                    <td><button class="darkgrey btn" onclick="cos()">cos</button></td>
-                    <td><button class="darkgrey btn" onclick="log()">log</button></td>
+                    <td><button class="darkgrey btn"> π</button></td>
+                    <td><button class="darkgrey btn" id="invcos">cos</button></td>
+                    <td><button class="darkgrey btn" id="invlog">log</button></td>
                     <td><button class="btn">4</button></td>
                     <td><button class="btn">5</button></td>
                     <td><button class="btn">6</button></td>
                     <td><button class="darkgrey btn">×</button></td>
                 </tr>
                 <tr>
-                    <td><button class="darkgrey btn" onclick="e()">e</button></td>
-                    <td><button class="darkgrey btn" onclick="tan()">tan</button></td>
-                    <td><button class="darkgrey btn" onclick="sqrt()">√</button></td>
+                    <td><button class="darkgrey btn">e</button></td>
+                    <td><button class="darkgrey btn" id="invtan">tan</button></td>
+                    <td><button class="darkgrey btn" id="invsqrt">√</button></td>
                     <td><button class="btn">1</button></td>
                     <td><button class="btn">2</button></td>
                     <td><button class="btn">3</button></td>
                     <td><button class="darkgrey btn">-</button></td>
                 </tr>
                 <tr>
-                    <td><button class="darkgrey btn">Ans</button></td>
+                    <td><button class="darkgrey btn" id="invans">Ans</button></td>
                     <td><button class="darkgrey btn">EXP</button></td>
-                    <td><button class="darkgrey btn" onclick="pow()">x<sup>y</sup></button></td>
+                    <td><button class="darkgrey btn" id="invroot">x<sup>y</sup></button></td>
                     <td><button class="btn">0</button></td>
                     <td><button class="btn">.</button></td>
-                    <td><button class="btn" id="equal" onclick="screen.value=eval(screen.value)">=</button></td>
-                    <td><button class="darkgrey btn" onclick="performBasicOp()">+ </button></td>
+                    <td><button id="equal" onclick="calculate()">=</button></td>
+                    <td><button class="darkgrey btn">+ </button></td>
                 </tr>
           </table>
         </div>
