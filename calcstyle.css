@@ -6,7 +6,6 @@ table,td,tr{
 table{
     margin-left: auto;
     margin-right: auto;
-    
     height: 50%;
     width:300px;
 }
@@ -27,16 +26,10 @@ table{
     
 
 td button{
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    width: 50px; 
+    width: 102px;
+    height: 52px;
     font-size:medium;
-    font-weight:300;
-    text-align:inherit;   
 }
-
 #equal{
     background: #4285f4;
     color: #fff;
@@ -68,4 +61,8 @@ body div{
 }
 td:hover button{
     background-color:grey;
+}
+
+.twobtn{
+display: flex;
 }
