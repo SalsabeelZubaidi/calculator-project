@@ -235,21 +235,3 @@ function calculate(){
             break;
               }
 }
-
-    function pow()
-    {
-        screen.value=Math.pow(screen.value,2);
-    }
-
-    function fact()
-    {
-        var i, num, f;
-        f=1;
-        num=screen.value;
-        for(i=1; i<=num; i++)
-        {
-            f=f*i;
-        }
-        i=i-1;
-        screen.value=f;
-    }
